@@ -1,0 +1,139 @@
+                   Software Participation Agreement
+
+                   University of Southern California
+
+                    Information Sciences Institute
+
+
+Critter@home: Content-Rich Traffic Trace Repository from Real-Time, Anonymous, User Contributions
+
+
+
+You are invited to participate in a research study conducted by Professor Jelena Mirkovic at the University of Southern California because you are aged 18 and up, and use your Web browser at least once every three days to peruse Web content on the Internet. Your participation is voluntary. You should read the information below, and ask questions about anything you do not understand, before deciding whether to participate. Please take as much time as you need to read this information. You may also decide to discuss participation with your family or friends.
+
+
+
+PURPOSE OF THE STUDY
+
+Our project builds a continuously updated archive of content-rich network data, contributed by volunteer users, called Critter-at-home. This data is then mined by interested researchers via our system, in a manner that protects your privacy as a volunteer.
+
+
+
+We collect only HTTP traffic that is not encrypted (i.e, any traffic sent over HTTP-S, SSL or otherwise being encrypted, such as email access, financial transactions, social network interactions is not recorded). The collection occurs by giving you an executable to install on your machine. This executable will create a plug-in for your browser and direct the data to a program that processes it and stores it on your machine. You can configure this plug-in to exclude any traffic to/from a given Web site from collection. All collected traffic is stored on your machine (you have an option to limit the size of this storage) and is securely encrypted with  the decryption key stored on our server.
+
+
+
+Any interested researchers will be able to ask questions about your data by submitting queries about data timing and content to our server. For example a researcher may ask “How many people made Google queries about hurricane Sandy on October 29, 2013”. Whenever your machine comes online it will check with our server if there are any queries, and if there are, it will try to calculate the answer using your data. For the above example, the answer calculated could be “yes” if you made such a query, or “no” if you didn’t make it or if your data does not cover Google queries on October 29, 2013. Additionally, a researcher may pose a query such as “How many times do users access Google during a day”, where the answer would be a set of numerical values, one count for each time interval (in this case one day). The data that leaves your machine for ANY query can only be a “yes”, a “no” or a set of numerical values associated with a time measure (e.g., a date). This data is sent back to our server.
+
+ 
+
+We expect that there will be many volunteers participating in our project. Our server will automatically pool all the answers from volunteers’ machines together, and aggregate it into one of the following: a count of “yes” or “no” answers, or a distribution of numerical values across all time units and across all users. This final result will be sent to researchers.
+
+
+
+STUDY PROCEDURES
+
+If you volunteer to participate in this study, you will be asked to sign up for it at our server  http://critter.isi.edu. You will then be asked to choose a username that does not include identifying information such as your name, last name, nickname, etc. In the future, whenever you communicate with our server you will be identified by this username only. We will not ask for any identifying information about you.
+
+
+
+You will then download and install the executable that collects the data you exchange with Web servers, encrypts it and stores it on your machine. You will also be asked to dedicate some storage for this data on your disk. You control how much storage you want to volunteer for this purpose and you can always change this amount later. When our executable runs out of space to store the data, it will start overwriting the oldest pieces of data with the newly collected ones.
+
+
+
+If interested, you will also be able to review each query sent to your machine and to decide if you want to allow use of your data in calculating the answer or not. If you are not interested in this review you can choose to allow or deny all queries.
+
+
+
+You can withdraw your data and your participation at any time by (1) opening our Critter application, and (2) selecting “Uninstall” from the drop-down menu. This will remove the plug- in and delete any data stored on your machine. Otherwise the data will be stored on your machine and will be part of our system indefinitely.
+
+
+
+POTENTIAL RISKS AND DISCOMFORTS
+
+We anticipate that there is a minimal risk to leaking private data due to the fact that such data is collected by our program, stored on your machine, and used to calculate results for researchers’ queries.
+
+
+
+We protect your privacy by several means:
+
+
+
+1. Your data always remains on your machine, thus you fully control access to it.
+
+2. Your data will be pre-processed by our executable to identify any sensitive information such as social security numbers, credit card numbers, passwords, etc. Such information will be replaced by random strings of numbers and/or characters before storing the data.
+
+3. Your data is encrypted before being stored, and the decryption key is stored on our server. Thus should your computer ever be compromised by a third party, they will not be able to access the data you contributed to this study.
+
+4. No human will ever look at your data. Your data will never leave your machine.
+
+5. Researchers cannot ask queries that aim to reveal your identity, e.g., “How many people have a name John Smith and visit the Web site http://somesensitivesite.com”. You are protected from such queries through our server’s aggregation policy. When answers are being aggregated to be returned to researchers, data points that pertain to less than k different data contributors are removed from the answer pool. Imagine that k=3. In that case the reply to our example query could only be 3 or higher to be returned to researchers. In that case, your identity (assuming your name is John Smith) is protected by there being more than 2 other contributors in our network whose name is John Smith and who have accessed the given site.
+
+
+
+POTENTIAL BENEFITS TO PARTICIPANTS AND/OR TO SOCIETY
+
+There are no specific benefits to participants from this study. However, your participation may help advance networking and cybersecurity research by providing a vital source of data needed to test research solutions in these fields.
+
+
+
+PAYMENT/COMPENSATION FOR PARTICIPATION
+
+You will not be compensated for your participation.
+
+
+
+CONFIDENTIALITY
+
+Any identifiable information obtained in connection with this study will remain confidential and will be disclosed only with your permission or as required by law.
+
+
+
+The members of the research team and the University of Southern California’s Human Subjects Protection Program (HSPP) may access only the data that is returned to our server, and linked to your username. They cannot at any time access the data collected on your machine, nor do we record any other identifier in relationship with the data, apart from username.
+
+
+
+The HSPP reviews and monitors research studies to protect the rights and welfare of research subjects.
+
+
+
+The data returned to our server (your username, along with any “yes”, “no” and numerical distribution answers and along with query text, for each query) will be stored on our server indefinitely. You have a right at any time to request this data from us by sending email to the Principal Investigator at mirkovic@isi.edu. Our server can only be directly accessed by the research team associated with this study.
+
+
+
+When the results of the research are published or discussed in conferences, no identifiable information will be used. We will list our publications and publications of any researchers who use this data at our project page: http://steel.isi.edu/Projects/critter/.
+
+
+
+
+PARTICIPATION AND WITHDRAWAL
+
+Your participation is voluntary. Your decision whether or not to participate will involve no penalty or loss of benefits to which you are otherwise entitled. You may withdraw your consent at any time and discontinue participation without penalty. You are not waiving any legal claims, rights or remedies because of your participation in this research study.
+
+
+
+ALTERNATIVES TO PARTICIPATION
+
+Your alternative is to not participate. Your relationship with USC will not be affected whether you participate or not in this study.
+
+
+
+INVESTIGATOR’S CONTACT INFORMATION
+
+If you have any questions or concerns about the research, please feel free to contact the Principal Investigator Professor Jelena Mirkovic at:
+
+USC Information Sciences Institute 4676 Admiralty Way, Suite 1001 Marina del Rey, CA 90292
+
+310-448-9170
+
+mirkovic@isi.edu
+
+
+
+RIGHTS OF RESEARCH PARTICIPANT – IRB CONTACT INFORMATION
+
+If you have questions, concerns, or complaints about your rights as a research participant or the research in general and are unable to contact the research team, or if you want to talk to someone independent of the research team, please contact the University Park Institutional Review Board (UPIRB), 3720 South Flower Street #301, Los Angeles, CA 90089-0702, (213) 821-5272 or  upirb@usc.edu
+
+
+
+
