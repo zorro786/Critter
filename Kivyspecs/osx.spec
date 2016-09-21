@@ -1,7 +1,7 @@
 # -*- mode: python -*-
 block_cipher = None
 from kivy.tools.packaging.pyinstaller_hooks import get_deps_all, hookspath, runtime_hooks
-
+#Change the following paths. The testpackaging directory is the one containing this spec file and pyinstaller code
 a = Analysis(['/Users/zorro/PycharmProjects/build_mac3/critter_client.py'],
              pathex=['/Users/zorro/PycharmProjects/testpackaging'],
              binaries=None,
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           console=False )
-coll = COLLECT(exe, Tree('/Users/zorro/PycharmProjects/build_mac3/'),
+coll = COLLECT(exe, Tree('/Users/zorro/PycharmProjects/build_mac3/'),#Folder containing all code files
                Tree('/Library/Frameworks/SDL2_ttf.framework/Versions/A/Frameworks/FreeType.framework'),
                a.binaries,
                a.zipfiles,
