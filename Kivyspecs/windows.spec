@@ -3,7 +3,7 @@
 from kivy.deps import sdl2, glew
 block_cipher = None
 
-
+#Change the paths below as required:
 a = Analysis(['..\\Abdul Qadeer\\Documents\\critter\\critter_client.py'],
              pathex=['C:\\Users\\critter', 'C:\\Python27\\Lib\\site-packages'],
              binaries=None,
@@ -25,6 +25,7 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           console=True )
+          #Change the path below to be the directory containing all code files.
 coll = COLLECT(exe, Tree('..\\Abdul Qadeer\\Documents\\critter\\'),
                a.binaries,
                a.zipfiles,
